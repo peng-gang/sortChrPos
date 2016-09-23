@@ -26,6 +26,7 @@ chrX	100	1000
 MT	100	130
 
 After sorting:
+
 chr1	60	900
 chr1	100	200
 chr1	300	600
