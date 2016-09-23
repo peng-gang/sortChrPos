@@ -14,27 +14,48 @@ sortChrPos inputfile outputfile
 Before sorting:
 
 chr1	100	200
+
 chr20	200	300
+
 chr1	500	600
+
 chr1	300	600
+
 chrX	200	500
+
 chr20	50	500
+
 MT	150	300
+
 chr1	700	1000
+
 chr1	60	900
+
 chrX	100	1000
+
 MT	100	130
+
 
 After sorting:
 
 chr1	60	900
+
 chr1	100	200
+
 chr1	300	600
+
 chr1	500	600
+
 chr1	700	1000
+
 chr20	50	500
+
 chr20	200	300
+
 chrX	100	1000
+
 chrX	200	500
+
 MT	100	130
+
 MT	150	300
