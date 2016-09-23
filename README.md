@@ -12,6 +12,7 @@ sortChrPos inputfile outputfile
 
 ## Example file
 Before sorting:
+
 chr1	100	200
 chr20	200	300
 chr1	500	600
