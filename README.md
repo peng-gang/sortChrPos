@@ -2,7 +2,7 @@
 This program is used to sort lines according to chromosome and position in a file like bed file in sequencing data analysis.
 
 ## usage
-First download the sorce code and and compile with g++. The similest way to compile is
+First download the source code and and compile with g++. The simplest way to compile is
 
 g++ *.cpp -o sortChrPos
 
