@@ -1,5 +1,5 @@
 # sortChrPos
-This program is used to sort lines according to chromosome and position in a file like bed file in DNA sequencing data analysis. The position will be decide by chromsome first, position (second column) secondly and all other columns (combined as a string) last. So "chr1 1 1111" will be placed before "chr 1 2". I sort the file in this order in case you input a vcf file. If you want to sort the bed file according to chromosome, start and end position, go to. 
+This program is used to sort lines according to chromosome and position in a file like bed file in DNA sequencing data analysis. The position will be decide by chromsome first, position (second column) secondly and all other columns (combined as a string) last. So "chr1 1 1111" will be placed before "chr 1 2". I sort the file in this order in case you input a vcf file. If you want to sort the bed file according to chromosome, start and end position, you can use [combineRegion](https://github.com/peng-gang/combineRegion). 
 
 ## usage
 First download the source code and and compile with g++. The simplest way to compile is
