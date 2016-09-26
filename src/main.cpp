@@ -9,7 +9,6 @@
 #include <iostream>
 #include <fstream>
 #include <set>
-#include <locale>
 #include <algorithm>
 
 #include "normal.h"
@@ -67,11 +66,7 @@ std::ostream & operator<<(std::ostream & os, const posInfo & pi) {
             os <<"Y";
         }
     } else if(pi.chr == 25){
-        if(pi.withChr){
-            os <<"chrMT";
-        } else {
-            os <<"MT";
-        }
+        os <<"MT";
     } else {
         if(pi.withChr){
             os <<"chr" << pi.chr;
@@ -90,7 +85,7 @@ int main(int argc, const char * argv[]) {
     if(argc == 1){
         cout << "Sort the lines in file according to chromosome and position" << endl;
         cout << "Usage: " <<endl;
-        cout << "sortChrPos inputfile outputfile comment"<<endl;
+        cout << "sortChrPos inputfile outputfile"<<endl;
         cout << "both inputfile and outputfile should be set. " <<endl;
     }
     if(argc == 2){
